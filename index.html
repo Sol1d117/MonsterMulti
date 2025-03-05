@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monster Multiplication</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <img id="monster" src="slime_blob.png" alt="Slime Blob">
+        <p id="question">The Slime Blob has 12 hit points. Your gun shoots 3 bullets per shot. How many shots?</p>
+        <div id="options">
+            <button onclick="checkAnswer(2)">2</button>
+            <button onclick="checkAnswer(4)">4</button>
+            <button onclick="checkAnswer(6)">6</button>
+        </div>
+        <p id="feedback"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
